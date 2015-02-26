@@ -45,3 +45,9 @@ group :development, :test do
   gem 'spring'
 end
 
+group :production do
+  # Use postgresql as the database for Active Record
+  gem 'pg'
+  #Heroku integration
+  gem 'rails_12factor'
+end
