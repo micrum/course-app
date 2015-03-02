@@ -23,8 +23,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'puma'
 
-# Use postgresql as the database for Active Record
-gem 'pg'
+group :development do
+  # sqlite as development db
+  gem 'sqlite3'
+end
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
