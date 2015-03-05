@@ -50,6 +50,8 @@ group :development, :test do
 end
 
 group :production do
+  # use postgres as production DB
+  gem 'pg'
   #Heroku integration
   gem 'rails_12factor'
 end
