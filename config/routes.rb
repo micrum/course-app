@@ -3,5 +3,5 @@ Rails.application.routes.draw do
 
   get 'course' => 'pages#course'
 
-  resources :testimonials, only: [:index]
+  resources :testimonials, only: [:index, :new, :show, :create]
 end

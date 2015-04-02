@@ -27,10 +27,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # puma web-server
 gem 'puma'
 
-group :development do
-  # sqlite as development db
-  gem 'sqlite3'
-end
+# use postgres as DB
+gem 'pg'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -50,8 +48,6 @@ group :development, :test do
 end
 
 group :production do
-  # use postgres as production DB
-  gem 'pg'
   #Heroku integration
   gem 'rails_12factor'
 end
