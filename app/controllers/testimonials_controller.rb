@@ -1,5 +1,7 @@
 class TestimonialsController < ApplicationController
 
+  before_action :authorize, only: :destroy
+
   def index
     @testimonials = Testimonial.all
   end
@@ -19,6 +21,11 @@ class TestimonialsController < ApplicationController
     else
       render 'new'
     end
+  end
+
+  def destroy
+    Testimonial.find(params[:id]).destroy
+    redirect_to testimonials_url
   end
 
   private
