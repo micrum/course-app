@@ -1,6 +1,7 @@
-<div class="page-header">
+<div class="page-header list-group">
   <h2><%= @student.name %></h2>
-  <p><%= @student.github_user %></p>
+  <%= github_link(@student) %>
+  <%= heroku_link(@student) %>
 </div>
 
 <% if session[:mentor_id] %>
@@ -8,4 +9,3 @@
     <%= link_to 'delete', @testimonial, method: :delete, class: 'btn btn-danger',
                 data: { confirm: "You sure?" } %>
 <% end %>
-   

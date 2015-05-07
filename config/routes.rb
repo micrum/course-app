@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
   root  'pages#home'
 
-  get 'course' => 'pages#course'
   get 'mentor' => 'mentor#index'
 
   controller :sessions do
@@ -11,6 +10,7 @@ Rails.application.routes.draw do
   end
 
   resources :testimonials, only: [:index, :new, :show, :create, :destroy]
+  resources :courses, only: [:index, :show]
 
   resources :students
 end
