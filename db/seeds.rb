@@ -28,6 +28,78 @@ students = [
         heroku_app: 'satdatabase'
     },
     {
+        github_user: 'shuspes',
+        name: 'Sasha',
+        course: courses[0],
+        heroku_app: 'blog-rails-app'
+    },
+    {
+        github_user: '01J',
+        name: 'Maryna',
+        course: courses[0],
+        heroku_app: 'wishboard-wishboard'
+    },
+    {
+        github_user: 'evgen1205',
+        name: 'Yauhenia',
+        course: courses[0],
+        heroku_app: 'r1-site'
+    },
+    {
+        github_user: 'Helga13',
+        name: 'Olga',
+        course: courses[0],
+        heroku_app: 'photolife-0'
+    },
+    {
+        github_user: 'shoudaos',
+        name: 'Artem',
+        course: courses[0],
+        heroku_app: 'dream-tarantino'
+    },
+    {
+        github_user: 'makeyeu',
+        name: 'Hleb',
+        course: courses[0],
+        heroku_app: 'contrabass-by'
+    },
+    {
+        github_user: 'craft37',
+        name: 'Kiryl',
+        course: courses[0],
+        heroku_app: 'crse-app'
+    },
+    {
+        github_user: 'belvision',
+        name: 'Sergey',
+        course: courses[0],
+        heroku_app: 'vast-cove-9430'
+    },
+    {
+        github_user: 'sergey77',
+        name: 'Sergey',
+        course: courses[0],
+        heroku_app: 'top-news-viewer'
+    },
+    {
+        github_user: 'evkor',
+        name: 'Ekaterina',
+        course: courses[0],
+        heroku_app: 'evkor-project'
+    },
+    {
+        github_user: 'ChernyMr',
+        name: 'Nick',
+        course: courses[0],
+        heroku_app: 'go-out'
+    },
+    {
+        github_user: 'varvara15',
+        name: 'Varvara',
+        course: courses[0],
+        heroku_app: 'bngroup'
+    },
+    {
         github_user: 'alberteinstein',
         name: 'Albert',
         course: courses[1],
