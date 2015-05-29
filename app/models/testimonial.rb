@@ -5,6 +5,8 @@ class Testimonial < ActiveRecord::Base
   private
 
   def censorship
-    self.feedback = self.feedback.downcase.gsub! /\bshit\b/, 'fun'
+    if feedback =~ /\bshit\b/
+      self.feedback = feedback.downcase.gsub! /\bshit\b/, 'fun'
+    end
   end
 end
